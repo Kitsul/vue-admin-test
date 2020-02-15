@@ -18,17 +18,7 @@ Vue.use(messagePlugin)
 Vue.use(Vuelidate)
 Vue.filter('date', dateFilter)
 
-const firebaseConfig = {
-  apiKey: "AIzaSyDg9h6vVduxMZm7GmSdKYXgM4pmSc91rVk",
-  authDomain: "vue-kitsul.firebaseapp.com",
-  databaseURL: "https://vue-kitsul.firebaseio.com",
-  projectId: "vue-kitsul",
-  storageBucket: "vue-kitsul.appspot.com",
-  messagingSenderId: "1767642112",
-  appId: "1:1767642112:web:275d9a10bf6ebc486574e5",
-  measurementId: "G-RF0HSTETRP"
-};
-firebase.initializeApp(firebaseConfig);
+
 
 let app
 firebase.auth().onAuthStateChanged(() => {
