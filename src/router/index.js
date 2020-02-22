@@ -53,6 +53,12 @@ const routes = [
     component: () => import('../views/Profile')
   },
   {
+    path: '/wedding',
+    name: 'record',
+    meta: {layout: 'main'},
+    component: () => import('../views/Wedding')
+  },
+  {
     path: '/record',
     name: 'record',
     meta: {layout: 'main'},

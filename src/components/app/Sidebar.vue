@@ -17,10 +17,12 @@
         props: ['value'],
         data: () => ({
             links: [
-                {title: 'Счет', url: '/', exact: true},
+                {title: 'Запись на примерку', url: '/record', exact: true},
+                {title: 'Свадебные платья', url: '/wedding', exact: true},
+                {title: 'Вечерние платья', url: '/evening', exact: true},
+                {title: 'Счет', url: '/'},
                 {title: 'История', url: '/history'},
                 {title: 'Планирование', url: '/planning'},
-                {title: 'Новая запись', url: '/record'},
                 {title: 'Категории', url: '/categories'},
             ]
         })
